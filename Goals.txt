@@ -1,0 +1,26 @@
+#Python car demo
+
+Needs to be able to:
+power on, power off
+start, stop
+turn left, turn right
+change radio
+display error messages on dashboard
+display fuel level
+report velocity
+
+take input from keyboard
+	arrow keys are left, right, up, down
+	can also use wasd
+	#Is remappable
+
+Classes:
+Sensor
+	Tire sensor
+	Safety
+	Voltage
+	Turn indicator
+Battery
+Propulsion
+	#Engine
+	Motors

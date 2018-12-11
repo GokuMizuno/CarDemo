@@ -1,4 +1,5 @@
-#Python car demo
+#Python car demo.  Extremely simple car written in python.
+Demo, plus GitHub history is used to demonstrate classes, methods, functions, and how I code, using the JPL/NASA method.
 
 Needs to be able to:
 power on, power off
@@ -8,6 +9,7 @@ change radio
 display error messages on dashboard
 display fuel level
 report velocity
+black box to report last five seconds of data
 
 take input from keyboard
 	arrow keys are left, right, up, down
@@ -24,3 +26,5 @@ Battery
 Propulsion
 	#Engine
 	Motors
+
+Don't forget DocStrings!

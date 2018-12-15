@@ -39,9 +39,9 @@ class Car(object):
         On inits all other parts of the car, whilst off releases them, and frees the memory
         '''
         self.state = self.state.onEvent(event)
-        if event == 'On':
+        if (event == 'On'):
             self.state.PoweredOff('powerOn')
-        else event == 'Off':
+        else: #(event == 'Off'):
             self.state.PoweredOn('powerOff')
 
     def Velocity(event):

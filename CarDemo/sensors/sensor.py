@@ -36,6 +36,6 @@ class Sensor:
         pass
     
     def logging(self, iterable):
-        '''logging aAppends new state to old'''
+        '''logging appends new state to old'''
         for i in iterable:
             self.logData.append(i)

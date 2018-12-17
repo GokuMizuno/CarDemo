@@ -46,13 +46,15 @@ class Car(object):
 
     def Velocity(event):
         if(event == 'up'):
-            speed++
-            if(speed == SPEED_MAX):
-                print("You are at your max speed!  Slow down.")
-                speed--
+            speed = speed + 1
+#            if(speed == SPEED_MAX):
+#                print("You are at your max speed!  Slow down.")
+#                speed--
             #check tires, and subtract energy
+            self.Battery.Drain()
+            self.AlarmCheck()
         if(event == 'down'):
-            speed--
-            if(speed == SPEED_MIN):
-                speed = 0
+            speed = speed - 1
+#            if(speed == SPEED_MIN):
+#                speed = 0
             #subtract energy
